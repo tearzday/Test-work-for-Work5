@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work5</title>
+    <link rel="shortcut icon" href="img/Logo Work5.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="fonts/icons-font.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-3 col-md-2 col-xs-12">
+            <div class="side-menu">
+                <div class="side-menu__logo"></div>
+                <ul class="side-menu__list" id="menu">
+                    <li>
+                        <a href="" class="icon-home">Главная</a>
+                    </li>
+                    <li>
+                        <a href="" class="active icon-cart">Мои магазины</a>
+                    </li>
+                    <li> 
+                        <a href="" class="icon-megaphone">Промоматериалы</a>
+                    </li>
+                    <li>
+                        <a href="" class="icon-static">Статистика</a>
+                    </li>
+                    <li>
+                        <a href="" class="icon-wallet">Баланс</a>
+                    </li>
+                    <li>
+                        <a href="" class="icon-person">Персональные данные</a>
+                    </li>
+                    <li>
+                        <a href="" class="icon-question">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="" class="icon-headphones">Техподдержка</a>
+                    </li>
+                    <li>
+                        <a href="" class="icon-exit">Выход</a>
+                    </li>
+                </ul>
+                <div class="main-header__burger" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-9 col-md-10 col-xs-12">
+           <div class="main">
+                <div class="main-header">
+                    <div class="main-header__path">
+                        <p>Главная > Мои магазины</p>
+                    </div>
+                    <div class="main-header__person">
+                        <div class="main-header__message">
+                        </div>
+                        <div class="main-header__photo">
+                            <div class="main-header__avatar">
+                
+                            </div>
+                            <div class="main-header__name">Максим Добжанский</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-createbtn">
+                    <button type="button" class="btn" id="createbtn"> <span>+</span> Создать свой магазин</button>
+                    <div class="modal-create" id="modal-create">
+                        <div class="modal-container">
+                            <div class="modal-header">
+                                <p>Cоздать магазин</p>
+                                <span class="icon-cansel2" id="modal-disable"></span>
+                            </div>
+                            <div class="modal-select">
+                                <div class="modal-select__semple">
+                                    <span>Шаблон</span>
+                                    <select class="form-select" name="f" id="">
+                                        <option value="value1">Стандартный</option>
+                                    </select>
+                                </div>
+                                <div class="modal-select__сolor">
+                                    <span>Цветовая схема</span>
+                                    <select class="form-select" name="f" id="">
+                                        <option value="value1">Классическая</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="modal-domain">
+                                <span>Домен</span>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Например: ivangrozniy" aria-label="Например: ivangrozniy" aria-describedby="basic-addon2">
+                                    <span class="input-group-text" id="basic-addon2">.work5.ru</span>
+                                  </div>
+                            </div>
+                            <div class="modal-clue">
+                                <div class="modal-clue__img">
+
+                                </div>
+                                <div class="modal-clue__text">
+                                    <p>
+                                        В названии домена разрешены латиница и “-”, запрещается использовать словосочетание Work 5. После создания магазина Вы сможете прикрутить свой домен (например ivangrozniy.ru). Подробнее по <a href="">ссылке</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="modal-btn">
+                                <button type="button" class="btn modal-btn__cansel" id="modal-btn__cansel">Отмена</button>
+                                <button type="button" class="btn modal-btn__create" id="modal-btn__create">Coздать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="main-control">
+                    <p>Управление магазинами</p>
+                    <table class="main-control__table">
+                        <thead>
+                            <tr>
+                                <th>№</th>
+                                <th>Название</th>
+                                <th>Адрес</th>
+                                <th>Действие</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>12345</td>
+                                <td>Дипломная работа</td>
+                                <td>http://www.work5.ru/services</td>
+                                <td>
+                                    <button class="main-control__btn btn-pencil btn icon-pencil">Редактировать</button>
+                                    <button  class="main-control__btn btn-cansel btn icon-cansel">Редактировать</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>12345</td>
+                                <td>Дипломная работа</td>
+                                <td>http://www.work5.ru/services</td>
+                                <td>
+                                    <button class="main-control__btn btn-pencil btn icon-pencil">Редактировать</button>
+                                    <button  class="main-control__btn btn-cansel btn icon-cansel">Редактировать</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+           </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

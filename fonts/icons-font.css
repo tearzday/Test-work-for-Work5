@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?qi0q3o');
+  src:  url('icomoon.eot?qi0q3o#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?qi0q3o') format('truetype'),
+    url('icomoon.woff?qi0q3o') format('woff'),
+    url('icomoon.svg?qi0q3o#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: #7D7D7D;
+  font-size: 20px;
+  padding-right: 18px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 800px) {
+  [class^="icon-"]::before, [class*=" icon-"]::before{
+    font-size: 15px;
+  }
+
+}
+
+.icon-cansel2:before {
+  content: "\e904";
+  padding-right: 0px;
+  cursor: pointer;
+}
+.icon-cansel:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-pencil:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-exit:before {
+  content: "\e907";
+}
+.icon-headphones:before {
+  content: "\e908";
+}
+.icon-question:before {
+  content: "\e909";
+}
+.icon-person:before {
+  content: "\e90a";
+}
+.icon-wallet:before {
+  content: "\e90b";
+}
+.icon-cart:before {
+  content: "\e90c";
+  color: #6666CC;
+}
+.icon-static:before {
+  content: "\e900";
+}
+.icon-megaphone:before {
+  content: "\e901";
+}
+.icon-home:before {
+  content: "\e903";
+}
